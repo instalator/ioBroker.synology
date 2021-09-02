@@ -1,0 +1,64 @@
+{
+  "name": "iobroker.synology",
+  "version": "1.0.1",
+  "description": "Info and control your NAS Synology",
+  "author": {
+    "name": "instalator",
+    "email": "vvvalt@mail.ru"
+  },
+  "contributors": [
+    {
+      "name": "instalator",
+      "email": "vvvalt@mail.ru"
+    }
+  ],
+  "homepage": "https://github.com/instalator/ioBroker.synology",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "synology",
+    "NAS"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/instalator/ioBroker.synology"
+  },
+  "dependencies": {
+    "@iobroker/adapter-core": "^2.4.0",
+    "moment": "^2.29.1",
+    "syno": "https://github.com/homeinstalator/syno/tarball/master/"
+  },
+  "devDependencies": {
+    "@iobroker/testing": "^2.4.4",
+    "@types/chai": "^4.2.15",
+    "@types/chai-as-promised": "^7.1.3",
+    "@types/gulp": "^4.0.8",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^14.14.35",
+    "@types/proxyquire": "^1.3.28",
+    "@types/sinon": "^9.0.11",
+    "@types/sinon-chai": "^3.2.5",
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^7.22.0",
+    "gulp": "^4.0.2",
+    "mocha": "^8.3.2",
+    "proxyquire": "^2.1.3",
+    "sinon": "^10.0.0",
+    "sinon-chai": "^3.6.0"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test:js": "mocha \"{!(node_modules|test)/**/*.test.js,*.test.js,test/**/test!(PackageFiles|Startup).js}\"",
+    "test:package": "mocha test/package --exit",
+    "test:unit": "mocha test/unit --exit",
+    "test:integration": "mocha test/integration --exit",
+    "test": "npm run test:js && npm run test:package",
+    "lint": "eslint"
+  },
+  "bugs": {
+    "url": "https://github.com/instalator/ioBroker.synology/issues"
+  },
+  "readmeFilename": "README.md"
+}
