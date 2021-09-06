@@ -1,9 +1,9 @@
 {
   "common": {
     "name": "synology",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "news": {
-      "1.0.1": {
+      "2.0.0": {
         "en": "fixed error",
         "de": "fixed error",
         "ru": "fixed error",

@@ -1,6 +1,6 @@
 {
   "name": "iobroker.synology",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Info and control your NAS Synology",
   "author": {
     "name": "instalator",
