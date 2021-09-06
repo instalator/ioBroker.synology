@@ -26,7 +26,7 @@
   "dependencies": {
     "@iobroker/adapter-core": "^2.4.0",
     "moment": "^2.29.1",
-    "syno": "https://github.com/homeinstalator/syno/tarball/master/"
+    "syno": "https://github.com/homeinstalator/syno/archive/refs/tags/v1.0.tar.gz"
   },
   "devDependencies": {
     "@iobroker/testing": "^2.4.4",
